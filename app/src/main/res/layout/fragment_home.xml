@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_F7"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <View-->
+<!--        android:background="@color/color_5473E8"-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/dp_20"-->
+<!--        tools:ignore="MissingConstraints" />-->
+    <com.yhhl.yhyq.util.StatusBarHeightView
+        android:background="@color/color_5473E8"
+        app:use_type="use_padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:gravity="center_vertical"
+        android:background="@color/color_5473E8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_marginLeft="@dimen/dp_15"
+            android:src="@mipmap/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/search_linear"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:layout_marginRight="@dimen/dp_11"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/shape_search"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35">
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:src="@mipmap/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/search_content"
+                android:layout_marginLeft="@dimen/dp_6"
+                android:windowSoftInputMode="adjustPan"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:hint="搜索"
+                android:background="@null"
+                android:textSize="@dimen/sp_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginRight="@dimen/dp_15"
+            android:src="@mipmap/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        app:tabRippleColor = "@android:color/transparent"
+        app:tabTextColor="@color/color_999999"
+        app:tabSelectedTextColor="@color/color_5473E8"
+        app:tabIndicatorColor="@color/color_5473E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" >
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

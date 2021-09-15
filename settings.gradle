@@ -1,0 +1,2 @@
+include ':app', ':mrcyclerview',':BaseAdapter'
+rootProject.name = "YHYQ"

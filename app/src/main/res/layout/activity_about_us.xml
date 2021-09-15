@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F7"
+    tools:context=".person.AboutUsActivity">
+
+    <com.yhhl.yhyq.util.StatusBarHeightView
+        android:id="@+id/start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:use_type="use_padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <include layout="@layout/title_layout"
+        app:layout_constraintTop_toBottomOf="@+id/start"
+        android:id="@+id/title_in"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/title_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/dp_40"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:text="V.1.0"
+        android:id="@+id/version"
+        android:layout_marginTop="@dimen/dp_10"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/color_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:text="始终秉承让企业管理更智能的使命，结合十几年丰富的企业信息化建设经验
+运用创新的互联网技术应用及安全的架构模式
+集成应用多个社会化优质资源服务并对其不断完善
+为企业信息化建设提供标准化、行业化、个性化的解决方案"
+        android:layout_marginTop="@dimen/dp_19"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_29"
+        app:layout_constraintTop_toBottomOf="@+id/version"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/color_50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

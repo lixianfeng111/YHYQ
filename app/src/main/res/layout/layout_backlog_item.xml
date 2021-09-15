@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_2"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/subject"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:textColor="@color/color_50"
+            android:text="您有一条待办消息"
+            android:textSize="@dimen/sp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/priority"
+            android:gravity="center"
+            android:text="高级"
+            android:paddingTop="@dimen/dp_2"
+            android:paddingRight="@dimen/dp_7"
+            android:paddingLeft="@dimen/dp_7"
+            android:paddingBottom="@dimen/dp_2"
+            android:background="@drawable/shape_high"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:paddingBottom="@dimen/dp_19"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:textColor="@color/color_666666"
+            android:text="您有一条待办消息请注意查看"
+            android:textSize="@dimen/sp_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="2021-7-12"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

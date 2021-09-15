@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MRecyclerView">
+        <attr name="loadMoreLayout" format="reference"/>
+        <attr name="loadMoreFinishLayout" format="reference"/>
+        <attr name="loadMoreErrorLayout" format="reference"/>
+        <attr name="emptyLayout" format="reference"/>
+        <attr name="lmType" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="grid" value="1"/>
+            <enum name="staggeredGrid" value="2"/>
+        </attr>
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr name="spanCount" format="integer"/>
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="adapterType" format="enum">
+            <enum name="def" value="0"/>
+            <enum name="swipe" value="1"/>
+        </attr>
+        <attr name="refresh" format="boolean"/>
+
+        <attr name="divideLocation">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+
+        <attr name="itemLayout" format="reference"/>
+        <attr name="lastItemNeedDivide" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Gif1View">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

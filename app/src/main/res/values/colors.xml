@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorAccent">#F7A22D</color>
+
+    <color name="color_5473E8">#5473E8</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_50">#505050</color>
+    <color name="color_EBF1FF">#EBF1FF</color>
+    <color name="color_F5FBED">#F5FBED</color>
+    <color name="color_FEF5E4">#FEF5E4</color>
+    <color name="color_FFEEF4">#FFEEF4</color>
+    <color name="color_F9ECFD">#F9ECFD</color>
+    <color name="color_FF5353">#FF5353</color>
+    <color name="colorRedRgbE43E44">#E43E44</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_F7">#F7F7F7</color>
+
+    <color name="color_F4">#F4F4F4</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_1B">#1B1B1B</color>
+    <color name="color_2">#222222</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="partTranslucent">#39000000</color>
+    <color name="color_2366F2">#2366F2</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50">
+        <TextView
+            android:layout_marginLeft="@dimen/dp_15"
+            android:text="选择组织"
+            android:textColor="@color/color_50"
+            android:textSize="@dimen/sp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_marginRight="@dimen/dp_15"
+            android:text="X"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/color_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:background="#E2E2E2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/color_50"
+        android:id="@+id/yhhl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="北京云和互联科技有限公司"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_10"
+        android:gravity="center"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/color_50"
+        android:id="@+id/fuhong"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="付红科技有限公司"/>
+
+    <TextView
+        android:gravity="center"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/color_50"
+        android:id="@+id/yhhl2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="北京云和互联科技有限公司"/>
+</LinearLayout>

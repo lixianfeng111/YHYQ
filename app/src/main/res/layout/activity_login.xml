@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/dp_200"
+        android:layout_marginLeft="@dimen/dp_37"
+        android:layout_marginRight="@dimen/dp_37"
+        android:drawableLeft="@mipmap/user_image"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="请输入用户名"
+        android:textSize="@dimen/sp_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:id="@+id/ps"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_below="@+id/user"
+        android:layout_marginLeft="@dimen/dp_37"
+        android:layout_marginRight="@dimen/dp_37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/password"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/lock_image"
+            android:drawablePadding="@dimen/dp_10"
+            android:hint="请输入密码"
+            android:textSize="@dimen/sp_15"
+            android:password="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="忘记密码"
+            android:textSize="@dimen/sp_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/ps"
+        android:layout_marginLeft="@dimen/dp_37"
+        android:layout_marginRight="@dimen/dp_37"
+        android:layout_marginTop="@dimen/dp_150"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/login"
+            android:background="@drawable/shape_login_btn"
+            android:gravity="center"
+            android:text="登录"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_39"/>
+
+        <RelativeLayout
+            android:layout_below="@+id/login"
+            android:layout_marginTop="@dimen/dp_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/finger_Login"
+                android:text="指纹登录"
+                android:textSize="@dimen/sp_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="刷脸登录"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/sp_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

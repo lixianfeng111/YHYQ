@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginLeft="@dimen/dp_15"
+    android:layout_marginRight="@dimen/dp_15"
+    android:paddingBottom="@dimen/dp_16"
+    android:background="@drawable/shape_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/client_infor"
+        android:layout_marginTop="@dimen/dp_17"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:text="客户信息：北京市云合互联科技有限公司"
+        android:textSize="@dimen/textSize15"
+        android:textColor="@color/color_50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/project_content"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:text="立项内容：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:textSize="@dimen/textSize15"
+        android:textColor="@color/color_50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>

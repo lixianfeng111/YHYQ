@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="provinces" tools:ignore="ExtraTranslation">
+        <item>山高我为峰</item>
+        <item>枫叶</item>
+        <item>哈哈</item>
+        <item>玄一</item>
+        <item>东霞</item>
+        <item>晚秋</item>
+        <item>春生</item>
+        <item>夏长</item>
+        <item>秋收</item>
+        <item>冬藏</item>
+        <item>峰巅</item>
+        <item>转眼</item>
+        <item>阴晴圆缺</item>
+        <item>对影无眠</item>
+        <item>一瞬间</item>
+        <item>算了</item>
+        <item>疗妥思念</item>
+        <item>消灾</item>
+        <item>吉祥</item>
+        <item>神咒</item>
+        <item>华夏</item>
+        <item>昆仑</item>
+        <item>蓬莱</item>
+        <item>华山</item>
+        <item>九华山</item>
+        <item>东华山</item>
+        <item>黄山</item>
+        <item>东海</item>
+        <item>南海</item>
+        <item>龙</item>
+        <item>麒麟</item>
+        <item>凤凰</item>
+
+        <item>A</item>
+        <item>a</item>
+        <item>b</item>
+        <item>d</item>
+
+        <item>.a</item>
+        <item>;b</item>
+        <item>#c</item>
+        <item>d</item>
+
+        <item>ab</item>
+        <item>aa</item>
+    </string-array>
+
+
+</resources>
